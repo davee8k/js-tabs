@@ -1,0 +1,22 @@
+.tab {
+	display: none;
+}
+.tab.active {
+	display: block;
+}
+
+#tabs-1 li {
+	background: #ccc;
+	border: 1px solid #ccc;
+	border-bottom: none;
+}
+#tabs-1 li.active {
+	background: #fff;
+	border-bottom: 1px solid #fff;
+	margin-bottom: -1px;
+}
+#tabs-1 li a {
+	display: block;
+	text-decoration: none;
+	padding: 5px;
+}
