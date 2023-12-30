@@ -2,7 +2,7 @@
  * Jquery Tabs
  *
  * @author DaVee8k
- * @version 0.1.1
+ * @version 0.1.2
  * @license WTFNMFPL 1.0
  */
 (function ($) {
@@ -32,8 +32,8 @@
 		};
 
 		$(this).find("a").click(function (e) {
+			e.preventDefault();
 			self.changeTab(this);
-			return false;
 		});
 
 		if (option['open'] !== false && window.location.hash) {
