@@ -3,7 +3,7 @@
  *
  * @author DaVee8k
  * @version 0.1.2
- * @license WTFNMFPL 1.0
+ * @license https://unlicense.org/
  */
 (function ($) {
 	$.fn.tabs = function (option) {
